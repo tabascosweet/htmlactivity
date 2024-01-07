@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input style="width: 100%" id="name" type="text" name="name" />
+      </div>
+      <div style="margin-top: 28px">
+        <label for="email">Email:</label>
+        <input style="width: 100%" id="email" type="text" name="email" />
+      </div>
+      <div style="margin-top: 28px">
+        <label for="form-message">Your message:</label>
+        <textarea
+          id="form-message"
+          name="message"
+          style="width: 100%"
+          rows="10"
+          autofocus="on"
+          required
+          maxlength="500"
+        ></textarea>
+      </div>
+      <button style="margin-top: 28px" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
